@@ -1,22 +1,10 @@
 import {PizzaTypeDropdown} from "./components/PizzaTypeDropdown.jsx";
 import {PizzaSizeSelector} from "./components/PizzaSizeSelector.jsx";
-import {useState} from "react";
+import {useOrder} from "./hooks/useOrder.js";
 
 export const Order = () => {
-    const [selectedType, setSelectedType] = useState('pepperoni');
-    const [pizzaSize, setPizzaSize] = useState('S');
+   const {selectedType, pizzaSize, handlePizzaTypeChange, handlePizzaSizeChange, handleSubmit} = useOrder();
 
-    const handlePizzaTypeChange = (value) => {
-        setSelectedType(value)
-    }
-
-    const handlePizzaSizeChange = (value) => {setPizzaSize(value)}
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Order', {selectedType,  pizzaSize})
-        // Submit to API, etc.
-    }
     return (
         <div>
             <h1>Create New Order</h1>

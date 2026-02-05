@@ -1,6 +1,6 @@
 import './App.css'
-import { Pizza } from './features/Pizza'
-import { Order } from './features/Order'
+import { Pizza } from './features/Pizza/index.js'
+import { Order } from './features/Order/index.js'
 function App() {
   return (
     <>
