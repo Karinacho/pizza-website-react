@@ -4,34 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="Order and Pizza components">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/Order/hooks/useOrder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/Order/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/vite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/react.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Order/Order.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/Order/Order.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Order/components/PizzaSizeSelector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/Order/components/PizzaSizeSelector.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Order/components/PizzaTypeDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/Order/components/PizzaTypeDropdown.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Order/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Pizza/Pizza.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/Pizza/Pizza.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Pizza/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/Pizza/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
+    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="added backend">
+      <change afterPath="$PROJECT_DIR$/backend/env.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/authRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/pizzaRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/userRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="23" />
+    <option name="cachedIndexableFilesCount" value="37" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -93,7 +78,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.completion",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/karinacholakova/WebstormProjects/pizza-website-react/backend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -126,7 +111,7 @@
       <updated>1769539352097</updated>
       <workItem from="1769539353952" duration="1466000" />
       <workItem from="1769602765793" duration="4689000" />
-      <workItem from="1770214988856" duration="15746000" />
+      <workItem from="1770214988856" duration="27913000" />
     </task>
     <task id="LOCAL-00001" summary="react project init">
       <option name="closed" value="true" />
@@ -144,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770230957325</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added backend">
+      <option name="closed" value="true" />
+      <created>1770308962694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770308962694</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="react project init" />
     <MESSAGE value="Order and Pizza components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Order and Pizza components" />
+    <MESSAGE value="added backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="added backend" />
   </component>
 </project>
