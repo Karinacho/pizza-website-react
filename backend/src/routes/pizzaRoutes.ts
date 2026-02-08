@@ -18,3 +18,5 @@ router.post('/', (req, res) => {
 router.delete('/:id', (req, res) => {
     res.status(204).json({message: 'pizza deleted'});
 })
+
+export default router;
