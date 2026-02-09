@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="backend configurations">
+    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="backend routes">
+      <change afterPath="$PROJECT_DIR$/backend/src/middleware/validation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/routes/pizzaRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/pizzaRoutes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/routes/userRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/userRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="37" />
+    <option name="cachedIndexableFilesCount" value="41" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -56,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -103,7 +105,8 @@
       <updated>1769539352097</updated>
       <workItem from="1769539353952" duration="1466000" />
       <workItem from="1769602765793" duration="4689000" />
-      <workItem from="1770214988856" duration="33676000" />
+      <workItem from="1770214988856" duration="34580000" />
+      <workItem from="1770635458419" duration="3851000" />
     </task>
     <task id="LOCAL-00001" summary="react project init">
       <option name="closed" value="true" />
@@ -137,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770479816989</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="backend routes">
+      <option name="closed" value="true" />
+      <created>1770576076332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770576076332</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +159,7 @@
     <MESSAGE value="Order and Pizza components" />
     <MESSAGE value="added backend" />
     <MESSAGE value="backend configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend configurations" />
+    <MESSAGE value="backend routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend routes" />
   </component>
 </project>
