@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="backend routes">
-      <change afterPath="$PROJECT_DIR$/backend/src/middleware/validation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/server.ts" afterDir="false" />
+    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="validation middleware">
+      <change beforePath="$PROJECT_DIR$/backend/src/middleware/validation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/validation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/routes/pizzaRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/pizzaRoutes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="41" />
+    <option name="cachedIndexableFilesCount" value="43" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -63,7 +60,6 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "node.js.detected.package.eslint": "true",
@@ -106,7 +102,7 @@
       <workItem from="1769539353952" duration="1466000" />
       <workItem from="1769602765793" duration="4689000" />
       <workItem from="1770214988856" duration="34580000" />
-      <workItem from="1770635458419" duration="3851000" />
+      <workItem from="1770635458419" duration="9381000" />
     </task>
     <task id="LOCAL-00001" summary="react project init">
       <option name="closed" value="true" />
@@ -148,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770576076332</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="validation middleware">
+      <option name="closed" value="true" />
+      <created>1770649509147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770649509147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +164,7 @@
     <MESSAGE value="added backend" />
     <MESSAGE value="backend configurations" />
     <MESSAGE value="backend routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend routes" />
+    <MESSAGE value="validation middleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="validation middleware" />
   </component>
 </project>

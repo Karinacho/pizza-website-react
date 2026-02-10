@@ -1,4 +1,10 @@
 import { Router } from 'express';
+import { validateBody } from "../middleware/validation.ts";
+import { z } from 'zod';
+
+const createPizzaSchema = z.object({
+    name: z.string(),
+})
 
 const router = Router();
 
@@ -11,7 +17,7 @@ router.get('/:id', (req, res) => {
     res.status(200).json({message: `pizza ${id} details`})
 })
 
-router.post('/', (req, res) => {
+router.post('/', validateBody(createPizzaSchema), (req, res) => {
     res.status(201).json({message: 'pizza created'});
 })
 
