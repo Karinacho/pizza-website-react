@@ -1,4 +1,4 @@
-# 🍕 Pizza Ordering Web App (Frontend)
+# 🍕 Pizza Ordering Web App
 
 A modern, mobile-first pizza ordering web application.  
 Users can browse the menu, customize pizzas, place orders as guests or logged-in users, track deliveries in real time, and get support via an AI chatbot.
