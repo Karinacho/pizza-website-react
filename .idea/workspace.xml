@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="validation middleware">
-      <change beforePath="$PROJECT_DIR$/backend/src/middleware/validation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/validation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/routes/pizzaRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/pizzaRoutes.ts" afterDir="false" />
-    </list>
+    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="validation middleware" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +99,7 @@
       <workItem from="1769539353952" duration="1466000" />
       <workItem from="1769602765793" duration="4689000" />
       <workItem from="1770214988856" duration="34580000" />
-      <workItem from="1770635458419" duration="9381000" />
+      <workItem from="1770635458419" duration="9404000" />
     </task>
     <task id="LOCAL-00001" summary="react project init">
       <option name="closed" value="true" />
@@ -152,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770649509147</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="validation middleware">
+      <option name="closed" value="true" />
+      <created>1770713541034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770713541034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
