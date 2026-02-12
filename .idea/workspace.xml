@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="fix typo">
-      <change afterPath="$PROJECT_DIR$/backend/src/db/schema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+    <list default="true" id="20292cb5-7fd5-4bfe-b455-95293251dd6a" name="Changes" comment="added initial user schema">
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,7 @@
       <workItem from="1769602765793" duration="4689000" />
       <workItem from="1770214988856" duration="34580000" />
       <workItem from="1770635458419" duration="9404000" />
-      <workItem from="1770903949478" duration="2854000" />
+      <workItem from="1770903949478" duration="3164000" />
     </task>
     <task id="LOCAL-00001" summary="react project init">
       <option name="closed" value="true" />
@@ -170,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770904021292</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added initial user schema">
+      <option name="closed" value="true" />
+      <created>1770906984054</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770906984054</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +190,7 @@
     <MESSAGE value="backend routes" />
     <MESSAGE value="validation middleware" />
     <MESSAGE value="fix typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix typo" />
+    <MESSAGE value="added initial user schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="added initial user schema" />
   </component>
 </project>
